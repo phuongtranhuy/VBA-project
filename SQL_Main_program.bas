@@ -29,9 +29,9 @@ Sub SQL_download()
     Set ObjWshNw = CreateObject("WScript.Network")
     USERID_HSCODEDATA = ObjWshNw.UserName
     
-    Server_Name = "tcp:SGPVSQL58.apac.bosch.com,1433" ' Enter your server name here
+    Server_Name = "tcp:SGPVSQL58.apac.com" ' Enter your server name here
     Database_Name = "DB_CTXFC1_SQL" ' Enter your database name here
-    user_id = "BOSCH\WOM.C_TXF-C1-INT" ' enter your user ID here
+    user_id = "" ' enter your user ID here
     Password = "" ' Enter your password here
     
 
@@ -322,9 +322,9 @@ application.ScreenUpdating = False
     
 
     
-    Server_Name = "tcp:SGPVSQL58.apac.bosch.com,1433" ' Enter your server name here
+    Server_Name = "tcp:SGPVSQL58.apac.com" ' Enter your server name here
     Database_Name = "DB_CTXFC1_SQL" ' Enter your database name here
-    user_id = "BOSCH\WOM.C_TXF-C1-INT" ' enter your user ID here
+    user_id = "" ' enter your user ID here
     Password = "" ' Enter your password here
 
 
@@ -947,9 +947,9 @@ Sub update_new_group_SQL_WL(ByVal USERID As String)
     
     
     
-    Server_Name = "tcp:SGPVSQL58.apac.bosch.com,1433" ' Enter your server name here
+    Server_Name = "tcp:SGPVSQL58.apac.com" ' Enter your server name here
     Database_Name = "DB_CTXFC1_SQL" ' Enter your database name here
-    user_id = "BOSCH\WOM.C_TXF-C1-INT" ' enter your user ID here
+    user_id = "" ' enter your user ID here
     Password = "" ' Enter your password here
 
 
@@ -1107,9 +1107,9 @@ Sub SQL_interraction()
     Set ObjWshNw = CreateObject("WScript.Network")
     USERID_HSCODEDATA = ObjWshNw.UserName
     
-    Server_Name = "tcp:SGPVSQL58.apac.bosch.com,1433" ' Enter your server name here
+    Server_Name = "tcp:SGPVSQL58.apac.com" ' Enter your server name here
     Database_Name = "DB_CTXFC1_SQL" ' Enter your database name here
-    user_id = "BOSCH\WOM.C_TXF-C1-INT" ' enter your user ID here
+    user_id = "" ' enter your user ID here
     Password = "" ' Enter your password here
     
 
